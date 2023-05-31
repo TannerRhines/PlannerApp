@@ -2,10 +2,28 @@
 
 
 textarea{
-    display: block;
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
     
-}
+    padding: 10px;
+  }
 
-button {
-    display: inline;
-}
+  .row {
+    border-top: 5px solid red;
+  }
+    
+
+
+  .saveBtn {
+    background-color: skyblue;
+    color: white;
+
+  }
+
+  .hour {
+    background-color: #bababa;
+    color: #000000;
+    
+  }
