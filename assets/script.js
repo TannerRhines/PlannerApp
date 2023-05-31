@@ -21,7 +21,7 @@ function displayTime() {
   }
 
   // Update the time every second
-  setInterval(displayTime, 1000);
+  setInterval(displayTime);
 
 
 
@@ -41,7 +41,7 @@ function displayTime() {
     }
 
     // Update the time every second
-    setInterval(displayTimeDXB, 1000);
+    setInterval(displayTimeDXB);
 
     //   time zone Dubai
   function displayTimeFR() {
@@ -57,7 +57,7 @@ function displayTime() {
   }
 
   // Update the time every second
-  setInterval(displayTimeFR, 1000);
+  setInterval(displayTimeFR);
 
 
   function displayTimeHK() {
@@ -73,4 +73,4 @@ function displayTime() {
   }
 
   // Update the time every second
-  setInterval(displayTimeHK, 1000);
+  setInterval(displayTimeHK);
