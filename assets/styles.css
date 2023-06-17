@@ -22,8 +22,17 @@ textarea{
 
   }
 
-  .hour {
-    background-color: #bababa;
-    color: #000000;
-    
+ 
+
+  .past textarea {
+    background-color: red; /* sets the background of past textareas to red */
   }
+  
+  .present textarea {
+    background-color: yellow; /* sets the background of present textareas to yellow */
+  }
+  
+  .future textarea {
+    background-color: green; /* sets the background of future textareas to green */
+  }
+  
