@@ -17,7 +17,7 @@ $('.time-block').each(function() {
   $(this).children('.description').val(value);
 });
 
-// The function below changes the color of each time block based on whether it's in the "past, present, or future" relative to the current hour.
+// hanges the color of each time block based on whether it's in the "past, present, or future" 
 function hourlyColor() {
   $('.time-block').each(function() {
     const blockHour = parseInt(this.id);
@@ -27,7 +27,9 @@ function hourlyColor() {
   });
 }
 
-// The function below will save the user's input in a textarea to localStorage - only when the corresponding save button has been clicked.
+
+
+// will save the user's input in a textarea to localStorage 
 function textEntry() {
   $('.saveBtn').on('click', function() {
     const key = $(this).parent().attr('id');
@@ -42,7 +44,7 @@ function currentTime() {
   var current = new Date();
   dateElement.text(current);
 
-  // Update the currentHour every time currentTime is called.
+  // Update currentHour every time currentTime is called.
   currentHour = dayjs().format('H');
   hourlyColor();
 }
