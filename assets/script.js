@@ -7,6 +7,25 @@ console.log("the files are linked");
 const currentHour = dayjs().format('H');
 
 
+
+
+function enterText() {
+  $('.saveBtn').on('click', function() {
+    const key = $(this).parent().attr('id');
+    const value = $(this).siblings('.description').val();
+    localStorage.setItem(key, value);
+  });
+}
+
+
+
+$('.time-block').each(function() {
+  const key = $(this).attr('id');
+  const value = localStorage.getItem(key);
+  $(this).children('.description').val(value);
+});
+
+
 function hourlyColor() {
   $('.time-block').each(function() {
     const blockHour = parseInt(this.id);
@@ -33,12 +52,6 @@ function refreshColor() {
 
 
 
-
-
-
-
-
-
 // function to set the current Time and Region 
 function currentTime() {
   var dateElement = $('#date');
@@ -49,7 +62,7 @@ function currentTime() {
 setInterval(currentTime, 1000);
 
 
-
+enterText();
 
 currentTime();
 hourlyColor();
