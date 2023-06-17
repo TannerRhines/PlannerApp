@@ -3,6 +3,11 @@ console.log("the files are linked");
 
 
 
+// declare current hour using dayJS
+const currentHour = dayjs().format('H');
+
+
+
 
 
 
