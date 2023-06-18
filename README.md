@@ -27,4 +27,4 @@ time blocks will be color coordinated based on past, present, and future.
 PREVIEW
 -------
 
-![Screenshot 2023-06-17 at 6 23 58 PM](https://github.com/TannerRhines/PlannerApp/assets/129781576/6e23b40a-a472-461e-9499-42d748323ceb)
+![Screenshot 2023-06-17 at 6 50 34 PM](https://github.com/TannerRhines/PlannerApp/assets/129781576/579c1f2d-e0e4-43f6-a157-0f971c9c7570)
