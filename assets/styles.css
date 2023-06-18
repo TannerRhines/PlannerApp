@@ -32,11 +32,11 @@ textarea{
  
 
   .past textarea {
-    background-color: red; /* sets the background of past textareas to red */
+    background-color: grey; /* sets the background of past textareas to red */
   }
   
   .present textarea {
-    background-color: yellow; /* sets the background of present textareas to yellow */
+    background-color: red; /* sets the background of present textareas to yellow */
   }
   
   .future textarea {
