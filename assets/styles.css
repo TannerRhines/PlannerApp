@@ -16,6 +16,13 @@ textarea{
     
 
 
+
+  h1 {
+    margin: 30px;
+    font-family: 'VT323', monospace;
+    font-size: 90px
+  }
+
   .saveBtn {
     background-color: skyblue;
     color: white;
